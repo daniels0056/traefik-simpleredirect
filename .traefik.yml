@@ -1,0 +1,9 @@
+displayName: SimpleRedirect
+summary: 'Creates a redirect response with status code and location header'
+
+type: middleware
+import: github.com/daniels0056/traefik-simpleredirect
+
+testData:
+  redirectTo: https://google.com
+  redirectCode: 302
